@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo1           {
+    padding: 50px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    padding: 50px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__nav-list {
+    display: flex;
+    gap: 30px;
+}
+
+.header__nav-link {
+    font-family: "RR";
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #8c8a8a;
+}
+
+.main__image-content {
+    width: 100%;
+    padding: 30px 0;
+}
+
+.main__texts {
+    display: flex;
+    gap: 30px;
+}
+
+.main__texts-left {
+    max-width: 730px;
+    width: 100%;
+    height: 500px;
+    background: rgb(236, 235, 235);
+    justify-content: center;
+    align-items: center;
+    padding: 50px 24px;
+}
+
+.main__texts-title {
+    font-family: "RB";
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #4581b7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.main__texts-text {
+    font-family: "RR";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 169%;
+    color: #808080;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.main__texts-right {
+    max-width: 350px;
+    width: 100%;
+    height: 500px;
+    background: rgb(236, 235, 235);
+    justify-content: center;
+    align-items: center;
+    padding: 50px 24px;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(236, 235, 235);
+    max-width: 1110px;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+}
+
+.footer__left {
+    padding: 15px 40px;
+}
+
+.footer__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 40px;
+}
+
+.footer__right-text {
+    font-family: "RR";
+    font-weight: 400;
+    font-size: 16px;
+    color: #808080; 
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__right-number {
+    font-family: "RB";
+    font-weight: 700;
+    font-size: 25px;
+    color: #808080;
+    justify-content: center;
+    align-items: center;
+}
